@@ -1,6 +1,7 @@
 ### Task parameters
 
 DATA_DIR = '<put your data dir here>'
+
 TASK_CONFIGS = {
     'aloha_wear_shoe':{
         'dataset_dir': DATA_DIR + '/aloha_wear_shoe',
@@ -22,10 +23,18 @@ PUPPET_GRIPPER_POSITION_OPEN = 0.05800
 PUPPET_GRIPPER_POSITION_CLOSE = 0.01844
 
 # Gripper joint limits (qpos[6])
-MASTER_GRIPPER_JOINT_OPEN = 0.3083
-MASTER_GRIPPER_JOINT_CLOSE = -0.6842
+# MASTER_GRIPPER_JOINT_OPEN = 0.3083
+# MASTER_GRIPPER_JOINT_CLOSE = -0.6842
+# PUPPET_GRIPPER_JOINT_OPEN = 1.4910
+# PUPPET_GRIPPER_JOINT_CLOSE = -0.6213
+
+
+
+# Gripper joint limits (qpos[6])
+MASTER_GRIPPER_JOINT_OPEN = -0.8
+MASTER_GRIPPER_JOINT_CLOSE = -1.65
 PUPPET_GRIPPER_JOINT_OPEN = 1.4910
-PUPPET_GRIPPER_JOINT_CLOSE = -0.6213
+PUPPET_GRIPPER_JOINT_CLOSE = 0.0  #-0.6213
 
 ############################ Helper functions ############################
 
