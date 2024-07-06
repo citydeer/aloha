@@ -1,6 +1,6 @@
 ### Task parameters
 
-DATA_DIR = '<put your data dir here>'
+DATA_DIR = '/home/citydeer/ubuntu-20.04/aloha/data'
 
 TASK_CONFIGS = {
     'aloha_wear_shoe':{
