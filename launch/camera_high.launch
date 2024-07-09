@@ -1,0 +1,8 @@
+<launch>
+  <group ns="cam_high">
+    <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+      <arg name="serial_no"             value="130322272914"/>
+      <arg name="tf_prefix"         		value="cam_high"/>
+    </include>
+  </group>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find aloha)/launch/camera_high.launch"/>
+  <include file="$(find aloha)/launch/camera_low.launch"/>
+  <include file="$(find aloha)/launch/camera_left_wrist.launch"/>
+  <include file="$(find aloha)/launch/camera_right_wrist.launch"/>
+</launch>
