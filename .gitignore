@@ -4,3 +4,4 @@
 /aloha_scripts/.idea/
 .pyc
 /data
+*.pyc
