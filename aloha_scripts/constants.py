@@ -9,6 +9,13 @@ TASK_CONFIGS = {
         'episode_len': 1000,
         'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
     },
+
+    'test_operation':{
+        'dataset_dir': DATA_DIR + '/test_operation',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
 }
 
 ### ALOHA fixed constants
