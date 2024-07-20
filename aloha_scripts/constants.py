@@ -19,7 +19,7 @@ TASK_CONFIGS = {
 
     'take_transfer_put':{
         'dataset_dir': DATA_DIR + '/take_transfer_put',
-        'num_episodes': 50,
+        'num_episodes': 56,
         'episode_len': 600,
         'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
     },
